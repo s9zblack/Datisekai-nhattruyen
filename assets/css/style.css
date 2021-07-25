@@ -61,8 +61,6 @@
     align-items: center;
     justify-content: center;
     transform: translateY(15%);
-    width: 95%;
-    
 }
 .container__login-header{
     display: flex;
@@ -242,8 +240,10 @@
     .social-button-fb{
         padding: 10px 8px;
     }
+    .container__login{
+        width: 95%;
+    }
 }
 
 @media (min-width: 740px) and (max-width: 1024px) {
-    
 }    
