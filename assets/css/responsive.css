@@ -68,7 +68,9 @@
         animation: fadeIn ease-in 0.5s;
         z-index: 1;
     }
-
+    .header__sort-bar{
+        display: none;
+    }
      
 }
 
@@ -135,5 +137,9 @@
         animation: fadeIn ease-in 0.5s;
         z-index: 1;
     }
-    
+ @media (min-width:1024px) and (max-width: 1113px){
+     .header__sort-bar{
+         display: none;
+     }
+ }   
 }
